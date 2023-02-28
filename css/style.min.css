@@ -45,8 +45,7 @@ nav {
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
 }
-.menu_link:hover {
-  font-size: 15px;
+.menu_link:focus {
   color: #1EACC7;
 }
 
@@ -745,10 +744,7 @@ footer a {
     font-size: 14px;
     color: #FFFFFF;
   }
-  .menu_link:hover {
-    background-color: #1EACC7;
-  }
-  .sub_header_off {
+  .menu_off {
     font-size: 12px;
   }
   .promo_co {
@@ -981,8 +977,7 @@ footer a {
     text-align: center;
   }
   .menu_link {
-    display: block;
-    font-size: 20px;
+    font-size: 18px;
   }
   .sub_header {
     top: 30px;
